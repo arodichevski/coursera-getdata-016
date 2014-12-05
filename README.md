@@ -6,11 +6,6 @@ Coursera Getting and Cleaning Data Course Project
 This is the exercise of Getting and Cleaning Data Course Project
 (see https://class.coursera.org/getdata-016/human_grading/view/courses/973758/assessments/3/submissions)
 
-###Input:
-datafiles in the UCI HAR Dataset directory
-###Output:
-uci_har_avg.txt - the averages for each activity and each subject (see data frame avg.df)
-
 The program
 ===========
 1. Merges the training and the test sets to create one data set.
@@ -19,6 +14,11 @@ The program
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 6. Writes the data set of the previous point using write.table().
+
+###Input:
+datafiles in the UCI HAR Dataset directory
+###Output:
+uci_har_avg.txt - the averages for each activity and each subject (see data frame avg.df)
 
 Code book
 =========
@@ -29,6 +29,7 @@ Vector of widths of columns to read and not to read from the input files X_*.txt
 ###df
 Data frame of the input measured data.
 Every subject and activity have many rows corresponding to time series of measurements.
+The measured values are normalized to range from -1 and 1.
 The columns are:
 * Subject (1 to 30 corresponds to one of 30 person)
 * Activity (factors for walking, walking_upstairs, walking_downstairs, sitting, standing, laying)
