@@ -6,8 +6,10 @@ Coursera Getting and Cleaning Data Course Project
 This is the exercise of Getting and Cleaning Data Course Project
 (see https://class.coursera.org/getdata-016/human_grading/view/courses/973758/assessments/3/submissions)
 
-###Input: datafiles in the UCI HAR Dataset directory
-###Output: uci_har_avg.txt - the averages for each activity and each subject (see data frame avg.df)
+###Input:
+datafiles in the UCI HAR Dataset directory
+###Output:
+uci_har_avg.txt - the averages for each activity and each subject (see data frame avg.df)
 
 The program
 ===========
